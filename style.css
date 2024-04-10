@@ -93,10 +93,10 @@ a{
   
 }
 .top1{
-  background-image: url(\1.jpg);
+  background-image: url("1.jpg");
 }
 .top2{
-  background-image: url(\2.jpg);
+  background-image: url("2.jpg");
 }
 .top3{
   background-image: url(https://d.line-scdn.net/lcp-prod-photo/20210312_103/1615517491651KhFlB_JPEG/11575474378269727_-826389462.jpg?type=f640);
