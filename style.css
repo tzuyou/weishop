@@ -9,14 +9,11 @@
 html,body
 {
    margin: 0;
+  background-color: black;
   padding:0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
-
 .poster {
-  
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     padding: 25px;
     margin:25px;
     border-radius: 10px;
@@ -57,7 +54,7 @@ h2.format{
 .Bbox{
   display:flex;
   position:relative;
-  width:70%;
+  width:75%;
 }
 
 a{
@@ -65,12 +62,11 @@ a{
   text-decoration: initial;
 }
 .box{
-  flex:250px;
+  flex:400px;
   background-color: #fff;
   box-shadow: 0px 0px 35px rgb(0, 255, 255);
   transition: 0.5s;
   border: solid 2px #3f3f3f;
-  
 }
 
 
@@ -85,25 +81,27 @@ a{
     width:90%;
   }
   .box{
-    flex:250px;
+    flex:350px;
   }
 }
-.top1,.top2,.top3{
+.top1,.top2,.top3,.top4{
   height: 230px;
   position: relative;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
 }
 .top1{
   background-image: url("1.jpg");
-  
 }
 .top2{
   background-image: url("2.jpg");
 }
 .top3{
   background-image: url(https://d.line-scdn.net/lcp-prod-photo/20210312_103/1615517491651KhFlB_JPEG/11575474378269727_-826389462.jpg?type=f640);
+}
+.top4{
+  background-image: url("3.PNG");
 }
 .cirButton{
   width: 25px;
