@@ -29,6 +29,7 @@ html,body
 {
   height: 717px;
   width: 538px;
+  border: solid 1px black;
   position: relative;
   background-image: url("4.png");
 }
@@ -96,7 +97,7 @@ a{
   }
 }
 .top1,.top2,.top3,.top4{
-  height: 260px;
+  height: 230px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,16 +118,16 @@ a{
 .cirButton{
   width: 25px;
   height: 25px;
-  background-color: #ffd89b;
+  background-color: #e779f1;
   border-radius: 50%;
   position: absolute;
   right: 20px;
   bottom: -17px;
-  border: solid 1px #3f3f3f;
+  border: solid 1px #403f9f;
   transition: 0.5s;
 }
 .cirButton:hover{
-  background-color: #ffffaf;
+  background-color: #7a0fde;
 }
 .tag{
   width: 20px;
@@ -161,7 +162,7 @@ h2.name
   font-size: 17px;
 }
 .top .name .smallText{
-  font-size: 11.5px;
+  font-size: 10.5px;
 }
 
 .bottom{
