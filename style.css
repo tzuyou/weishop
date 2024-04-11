@@ -54,7 +54,7 @@ h2.format{
 .Bbox{
   display:flex;
   position:relative;
-  width:85%;
+  width:80%;
   flex-wrap: wrap;
 
 }
