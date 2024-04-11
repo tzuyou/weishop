@@ -54,7 +54,7 @@ h2.format{
 .Bbox{
   display:flex;
   position:relative;
-  width:75%;
+  width:85%;
 }
 
 a{
@@ -62,7 +62,7 @@ a{
   text-decoration: initial;
 }
 .box{
-  flex:400px;
+  flex:auto;
   background-color: #fff;
   box-shadow: 0px 0px 35px rgb(0, 255, 255);
   transition: 0.5s;
