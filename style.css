@@ -29,7 +29,7 @@ html,body
 {
   height: 717px;
   width: 538px;
-  border: solid 1px black;
+  border: solid 1px rgb(7, 7, 7);
   position: relative;
   background-image: url("4.png");
 }
@@ -40,7 +40,7 @@ html,body
   flex-grow:0;
   flex-shrink:0;
 }
-.topTitle
+.topTitle,a
 {
   font-size: 50px;
   line-height: 65px;
@@ -70,8 +70,12 @@ h2.format{
 }
 
 a{
-  color: initial;
-  text-decoration: initial;
+  font-size: 30px;
+  background-image: linear-gradient(45deg, #00ccff, #c015fa 80%); ;
+}
+a:hover
+{
+  color: #eff6b0;
 }
 .box{
   flex:270px;
