@@ -71,6 +71,7 @@ h2.format{
 
 a{
   font-size: 30px;
+  text-decoration: none;
   background-image: linear-gradient(45deg, #00ccff, #c015fa 80%); ;
 }
 a:hover
