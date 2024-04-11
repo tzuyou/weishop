@@ -55,6 +55,7 @@ h2.format{
   display:flex;
   position:relative;
   width:85%;
+  flex-wrap:wrap;
 }
 
 a{
