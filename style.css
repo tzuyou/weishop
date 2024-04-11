@@ -25,13 +25,19 @@ html,body
     margin: 0;
   
 }
-.img
+.img,.img2
 {
   height: 717px;
   width: 538px;
   border: solid 1px rgb(7, 7, 7);
   position: relative;
+  
+}
+.img{
   background-image: url("4.png");
+}
+.img2{
+  background-image: url("5.png");
 }
 .topTitle,h2.format,.box
 {
@@ -187,31 +193,4 @@ h2.name
   list-style: none;
   padding-left: 0px;
 }
-.button{
-  margin-top: 30px;
-}
-.button .btn{
-  display: inline-block;
-  padding: 7px 25px;
-  letter-spacing: 3px;
-}
-.btnNews{
-  float: right;
-}
-.btnWebsite{
-  background-color: #fff;
-  border: solid 1px #ccc;
-  transition: 0.5s;
-  font-size:15px;
-}
-.btnWebsite:hover{
-  background-color: #eee;
-}
-.btnNews{
-  background-color: #fff;
-  border: solid 1px #ccc;
-  transition: 0.5s;
-}
-.btnNews:hover{
-  background-color: #eee;
-}
+
